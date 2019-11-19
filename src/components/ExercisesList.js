@@ -14,7 +14,7 @@ const Exercise = props => (
     </tr>
   )
 
-const EditExercise = () => {
+const ExercisesList = () => {
 
     const [exercises, setExercises] = useState(['']);
 
@@ -65,4 +65,4 @@ const EditExercise = () => {
 }
 
 
-export default EditExercise
+export default ExercisesList
